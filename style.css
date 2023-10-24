@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.video-container{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.video-container video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     
+}
+  
+
+body{
+    overflow-x:hidden ;
+}
+
+.main-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    /*background: radial-gradient(#f9d349,20%,#d57e12);*/
+    /* background: radial-gradient(circle, rgba(0,0,0,0.8), rgba(0,0,0,1)); */
+    background: linear-gradient(circle, #000000, #333333, #666666, #999999, #cccccc, #ffffff);
+    position: relative;
+}
+
+.hero header .logo h2 a{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    
+}
+
+nav ul li.active a{
+    border-bottom: 2px solid white;
+}
+
+nav ul li.btn a{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+}
+
+.content{
+    padding-top: 140px;
+}
+
+.content .main-text{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.content .main-text h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.content .main-text h1{
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.content .main-text p{
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.content .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+}
+
+.content .social{
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+    padding-bottom: 40px;
+}
+
+.content .social a{
+    display: inline-block;
+    color: #f5dcac;
+    margin-right: 25px;
+    font-size: 24px;
+}
+.social {
+   justify-content: right;
+   display: flex;
+   
+   
+}
+
+/* .image{
+    position:absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+} */
+
+/* .image img{
+    height: 100%;
+} */
+/* .video {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
